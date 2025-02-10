@@ -1,3 +1,4 @@
+```sql
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
   `username` varchar(100) NOT NULL,
@@ -8,3 +9,4 @@ CREATE TABLE `users` (
   `verified` tinyint(1) DEFAULT 0,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp()
 )
+```
